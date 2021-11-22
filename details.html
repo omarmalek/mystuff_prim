@@ -1,0 +1,127 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       		<!-- local bootstrap-->
+<link rel="stylesheet" href="/css/bootstrap-rtl.min.css">
+
+<!-- local css-->
+<link rel="stylesheet" type="text/css" href="/css/style.css">
+
+<!-- fontawesome library for icons-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+
+    <title>يونيماركت</title>
+</head>
+<body>
+      <!------------------------------------ top nav  ------------------------------------------->
+  
+    <nav class="navbar navbar-expand-md navbar-light fixed-top  ">
+      <div class="container">
+        <a class="navbar-brand" href="#"> <img src="images/unimarket_small.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html"> الصفحة الرئيسية <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">رائج في الجامعة</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">الجامعات</a>
+            </li>
+          
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">الاعدادات</a>
+              <div class="dropdown-menu dropdown-menu-right">
+                <a class="dropdown-item" href="#">دليل الاستخدام</a>
+                <a class="dropdown-item" href="#">تعديل الملف الشخصي</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="admin/dashboard.html">Dashboard</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="" tabindex="-1" > اتصل بنا </a>
+            </li>
+          
+          </ul>
+        </div>
+        </div>
+      </nav>
+        <!----------------------- search result ------------------------------------->
+   
+    <section>
+      <div class="container p-5 " id="details1">
+        <h1>التفاصيل </h1>
+        <div class="row ">
+          <div class="col-md-5 bg-light rounded">     <!-- this is details-->
+            <form>
+              <div class="form-group row ">
+                <label for="" class="col-sm-2 col-form-label text-success">الاسم: </label>
+                <div class="col-sm-10 pt-2">
+                  <input type="text" readonly class="form-control-plaintext ml-2" id="" value="الكترونيات 1">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="" class="col-sm-2 col-form-label text-success ">التخصص: </label>
+                <div class="col-sm-10 pt-2">
+                  <input type="text" readonly class="form-control-plaintext ml-3" id="" value="اتصالات ">
+                </div>
+                </div>
+              <div class="form-group row">
+                <label for="" class="col-sm-2 col-form-label text-success">الجامعة: </label>
+                <div class="col-sm-10 pt-2 ">
+                  <input type="text" readonly class="form-control-plaintext ml-2" id="" value=" الجامعة الاسلامية ">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="" class="col-sm-2 col-form-label text-success">الحالة: </label>
+                <div class="col-sm-10 pt-2">
+                  <input type="text" readonly class="form-control-plaintext" id="" value="جيدة">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="" class="col-sm-2 col-form-label text-success">السعر: </label>
+                <div class="col-sm-10 pt-2">
+                  <input type="text" readonly class="form-control-plaintext" id="" value="22شيكل">
+                </div>
+              </div>
+              
+                <!----------- buttons -------------->
+  
+                    <div class="submit-buttons mt-5 d-flex justify-content-center ">
+                      <div class="btn btn-success mr-3" style="width: 80px;" onclick="window.location.href = 'buyandpayment.html';">شراء</div>
+                      <div class="btn btn-secondary"  onclick="history.go(-1)">رجوع </div>
+                    </div>
+              </form>
+          </div>
+       
+          <!---------------------------------------------------- image  ------------------------------------------------>
+          <div class="col-md-6 ml-4">
+            <img class="img-fluid rounded" src="images/book_samples/كيف تتحدث عن كتاب لم تقرأه ؟.jpg">
+          </div>
+          
+        </div>
+        
+      </div>
+    </section>
+    
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

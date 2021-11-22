@@ -1,0 +1,321 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       		<!-- local bootstrap-->
+<link rel="stylesheet" href="/css/bootstrap-rtl.min.css">
+
+<!-- local css-->
+<link rel="stylesheet" type="text/css" href="/css/style.css">
+
+<!-- fontawesome library for icons-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+
+    <title>يونيماركت</title>
+</head>
+<body>
+      <!------------------------------------ top nav  ------------------------------------------->
+  
+    <nav class="navbar navbar-expand-md navbar-light fixed-top  ">
+      <div class="container">
+        <a class="navbar-brand" href="#"> <img src="/images/unimarket_small.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="/index.html"> الصفحة الرئيسية <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">رائج في الجامعة</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">الجامعات</a>
+            </li>
+          
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">الاعدادات</a>
+              <div class="dropdown-menu dropdown-menu-right">
+                <a class="dropdown-item" href="#">دليل الاستخدام</a>
+                <a class="dropdown-item" href="#">تعديل الملف الشخصي</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="admin/dashboard.html">Dashboard</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="" tabindex="-1" > اتصل بنا </a>
+            </li>
+          
+          </ul>
+        </div>
+        </div>
+      </nav>
+        <!---------------------------------------- DashBoard  ------------------------------>
+        <section>
+          <div class="container mt-5 " >
+              <h1 class="text-center mb-3">DashBoard</h1>
+              <div class="row g-3  justify-content-center" id="dashboard" >
+                <!----------------------- module 1------------------->
+                <div class="col-lg-5 m-2 p-0 text-center border border-secondary bg-light rounded" id="dash-module">
+                  <div class=" bg-primary text-light py-3 "><h2>العمليات اليومية</h2></div>
+                  <div class="p-3 " id="wraper">
+                    <!-- ---------------  -->
+                   <a href="waiting-list.html">
+                    <div class="d-flex align-items-center justify-content-center">
+                      <h2>العمليات في الانتظار</h2>
+                      <img class="img-fluid w-25" src="/images/icons/wating-list 612x612.png" alt="">
+                    </div></a>
+                    <!-- -----------------  -->
+                    <a href="complete-list.html">
+                    <div class="d-flex align-items-center justify-content-center">
+                      <h2>العمليات المكتملة </h2>
+                      <img class="img-fluid w-25" src="/images/icons/complete-list-612x612.png" alt="">
+                    </div></a>
+                    <a href="stucked-list.html">
+                    <div class="d-flex align-items-center justify-content-center">
+                      <h2>العمليات العالقة </h2>
+                      <img class="img-fluid w-25" src="/images/icons/stucked-list.png" alt="">
+                    </div></a>
+                    <a href="cancelled-list.html">
+                    <div class="d-flex align-items-center justify-content-center">
+                      <h2>العمليات الملغية </h2>
+                      <img class="img-fluid w-25" src="/images/icons/cancelled.png" alt="">
+                    </div></a>
+                  </div>
+                </div>
+                <!----------------------- module 2 ------------------->
+        
+                <div class="col-lg-5 m-2 p-0 text-center border border-secondary bg-light rounded" id="dash-module">
+                  <div class=" bg-primary text-light py-3 "><h2>البيانات المالية </h2></div>
+                  <div class=" row p-3 justify-content-center">
+                    <a href="">
+                    <div class="d-flex align-items-center justify-content-center">
+                      <h2>العمليات اليومية </h2>
+                      <img class="img-fluid w-25" src="/images/icons/calc.png" alt="">
+                    </div></a>
+                    <a href="">
+                    <div class="d-flex align-items-center justify-content-center">
+                      <h2>العمليات الشهرية </h2>
+                      <img class="img-fluid w-25" src="/images/icons/monthly.png" alt="">
+                    </div></a>
+                  </div>
+                </div>
+                <!-- module 3 -->
+                <div class="col-lg-5 m-2 p-0 text-center border border-secondary bg-light rounded" id="dash-module">
+                  <div class=" bg-primary text-light py-3 "><h2> العلاقات العامة </h2></div>
+                  <div class=" row p-3 justify-content-center">
+                    <a href="">
+                    <div class="d-flex align-items-center justify-content-center">
+                      <h2>قائمة المستخدمون</h2>
+                      <img class="img-fluid w-25" src="/images/icons/users.png" alt="">
+                    </div></a>
+                    <a href="">
+                      <div class="d-flex align-items-center justify-content-center">
+                        <h2>قائمة الشركات</h2>
+                        <img class="img-fluid w-25" src="/images/icons/4205732.png" alt="">
+                      </div></a>
+                      
+                    
+                  </div>
+                </div>
+                 <!-- module 4 -->
+                 <div class="col-lg-5 m-2 p-0 text-center border border-secondary bg-light rounded" id="dash-module">
+                  <div class=" bg-primary text-light py-3 "><h2> المنتجات  </h2></div>
+                  <div class=" row p-3 justify-content-center">
+                    <a href="">
+                      <div class="d-flex align-items-center justify-content-center">
+                        <h2>جميع المعروضات</h2>
+                        <img class="img-fluid w-25" src="/images/icons/transactios.png" alt="">
+                      </div></a>
+                      <a href="">
+                        <div class="d-flex align-items-center justify-content-center">
+                          <h2>المبيعات الرائجة</h2>
+                          <img class="img-fluid w-25" src="/images/icons/viral.png" alt="">
+                        </div></a>
+                        
+                      
+                  </div>
+                </div>
+               
+               
+              </div>
+             
+              
+              
+              
+             
+
+             
+  
+          </div>
+        </section>
+        
+<!-- Footer -->
+
+<footer class="container text-center text-lg-start bg-light text-muted mt-4  border">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-sm-center justify-content-lg-between1 p-4 border-bottom ">
+    <!-- Left -->
+    <div class="mr-5 d-none d-lg-block ">
+      <span>تواصل معنا عبر :</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="mr-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="mr-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="mr-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="mr-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="mr-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="mr-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>يونيماركت
+          </h6>
+          <p>
+            Here you can use rows and columns to organize your footer content. Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Products
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Angular</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">React</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Vue</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Laravel</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Pricing</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Settings</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Orders</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Help</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Contact -->
+        <div class="col-md-4  mx-auto text-md-start mx-md-0 mb-md-0 mb-4 border">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Contact
+          </h6>
+          <p><i class="fas fa-home "></i> Palestin, Gaza</p>
+          <p>
+            <i class="fas fa-envelope "></i>
+            unimarket@hotmail.com
+          </p>
+          <p><i class="fas fa-phone "></i> + 01 234 567 88</p>
+          <p><i class="fas fa-print "></i> + 01 234 567 89</p>
+        </div>
+        <!---------------------------------------->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4 " style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2021 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/"> www.unimarket.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+        <!-- عرض التحكم بطريقة اخرى -->
+        <!-- <div class="col-md-6 p-0 text-center border border-secondary bg-light rounded" id="dash-module">
+          <div class=" bg-primary text-light py-3 "><h3>العمليات اليومية</h3></div>
+          <div class=" p-3 justify-content-start">
+            <div class="d-flex align-items-center ">
+              
+              <img class="img-fluid " src="/images/icons/wating-list 612x612.png" alt="">
+              <h4>قائمة الانتظار</h4>
+            </div>
+            <div class="d-flex align-items-center ">
+            
+              <img class="img-fluid " src="/images/icons/complete-list-612x612.png" alt="">
+              <h4>العمليات المكتملة </h4>
+            </div>
+            <div class="d-flex align-items-center ">
+              
+              <img class="img-fluid " src="/images/icons/stucked-list.png" alt="">
+              <h4>العمليات العالقة </h4>
+            </div>
+            <div class="d-flex align-items-center ">
+              
+              <img class="img-fluid " src="/images/icons/stucked-list.png" alt="">
+              <h4>العمليات الملغية </h4>
+            </div>
+            <div class="w-50 border border-secondary"></div>
+          </div>
+        </div> -->
+        
+     
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
